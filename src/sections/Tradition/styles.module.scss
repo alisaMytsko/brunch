@@ -1,0 +1,30 @@
+@use "~sass-rem" as rem;
+
+.tradition{
+  max-width: 95%;
+  margin:70px auto;
+  color: var(--white-color);
+  .traditionContainer{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+    h2{
+      font-size: rem.convert(29px);
+      font-family: 'Raleway';
+      font-weight: 600;
+      margin-bottom: rem.convert(50px);
+    }
+
+    p{
+      font-size: rem.convert(19px);
+      font-weight: 400;
+      line-height: 1.7;
+    }
+
+    .wrapper{
+      flex-basis: 45%;
+    }
+  }
+
+}
