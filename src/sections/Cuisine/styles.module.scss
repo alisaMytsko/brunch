@@ -1,0 +1,45 @@
+@use "~sass-rem" as rem;
+
+.cuisine{
+  background: var(--opacity-white);
+  text-align: center;
+  padding: 80px 0 65px 0;
+  .title{
+    font-size: rem.convert(29px);
+    font-weight: 700;
+  }
+  .subTitle{
+    font-size: rem.convert(19px);
+    font-weight: 400;
+    max-width: 770px;
+    margin: 2% auto 3%;
+    line-height: 1.6;
+  }
+  .boxCircle{
+    display:flex;
+    margin:0 auto;
+    justify-content: center;
+    .circle{
+      width: 23px;
+      height: 23px;
+      border-radius: 50%;
+      background: var(--body-color);
+      margin-right: 5px;
+    }
+    .circle:last-child{
+      margin-right: 0;
+    }
+  }
+  .newNavigation{
+    margin-top: 50px;
+    a{
+      color: var(--body-color);
+      font-weight: 700;
+      font-size: rem.convert(18px);
+      margin-right: 50px;
+    }
+    a:last-child{
+      margin-right: 0;
+    }
+  }
+}

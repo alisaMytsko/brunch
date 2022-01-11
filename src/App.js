@@ -4,6 +4,7 @@ import './main.scss'
 import Tastes from './sections/Tastes';
 import Tradition from './sections/Tradition';
 import Plate from './sections/Plate';
+import Cuisine from './sections/Cuisine';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Tradition />
       <Tastes />
       <Plate />
+      <Cuisine />
     </div>
   );
 }
