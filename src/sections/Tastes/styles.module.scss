@@ -1,0 +1,35 @@
+@use "~sass-rem" as rem;
+
+.tastes{
+  background: var(--opacity-white);
+  .containerTastes{
+    display:flex;
+    padding: 97px 0;
+    max-width: 80%;
+    margin:0 auto;
+    justify-content: space-between;
+    .wrapper{
+      flex-basis: 30%;
+      .circle{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: var(--body-color);
+        margin-right: 9px;
+      }
+      .wrapperCircle{
+        display:flex;
+      }
+      .title{
+        font-size: rem.convert(19px);
+        font-weight: 700;
+        margin: 34px 0;
+      }
+      .subTitle{
+        font-size: rem.convert(16px);
+        font-weight: 400;
+        line-height: 1.6;
+      }
+    }
+  }
+}
