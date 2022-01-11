@@ -1,0 +1,31 @@
+@use "~sass-rem" as rem;
+.main{
+  .containerMain{
+    background: var(--opacity-white);
+    text-align: center;
+    margin:10% auto 0;
+    width: 50%;
+    h1{
+      font-size: rem.convert(104px);
+      padding-top: 100px;
+    }
+
+    p{
+      font-size: rem.convert(77px);
+      font-weight: 600;
+      text-transform: uppercase;
+      color: var(--brand-color);
+    }
+
+    button{
+      color: var(--body-color);
+      background: var(--white-color);
+      text-transform: uppercase;
+      font-size: rem.convert(38px);
+      border: none;
+      margin: 25px 0 100px 0;
+      padding: 10px 20px;
+      cursor:pointer;
+    }
+  }
+}

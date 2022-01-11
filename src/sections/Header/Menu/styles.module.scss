@@ -1,0 +1,14 @@
+@use "~sass-rem" as rem;
+
+.navBar{
+  display: flex;
+  li{
+    margin-left: rem.convert(23px);
+  }
+}
+
+@media (max-width: 991px){
+  .navBar{
+    display: none;
+  }
+}

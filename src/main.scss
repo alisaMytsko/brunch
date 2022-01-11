@@ -1,0 +1,53 @@
+:root {
+  --body-color: #2a3b40;
+  --brand-color: #ad6c12;
+  --opacity-white:rgba(255, 255, 255, 0.8);
+  --white-color: #ffffff;
+}
+
+@font-face {
+  font-family: 'Cookie';
+  src: url('./ui/fonts/Cookie/Cookie-Regular.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url('./ui/fonts/Raleway/Raleway-Regular.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url('./ui/fonts/Raleway/Raleway-SemiBold.ttf');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url('./ui/fonts/Raleway/Raleway-Bold.ttf');
+  font-weight: 700;
+}
+*{
+  margin: 0;
+  padding:0;
+}
+body {
+  font-family: 'Raleway';
+  font-weight: 700;
+  color: var(--body-color);
+  background: var(--body-color);
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cookie';
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+img{
+  display:block;
+  max-width: 100%;
+  height: auto;
+}
