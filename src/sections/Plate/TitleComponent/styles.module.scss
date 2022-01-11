@@ -1,0 +1,15 @@
+@use "~sass-rem" as rem;
+
+.blockText{
+  text-align: center;
+  padding: 3.6% 0;
+  h3{
+    font-size: rem.convert(77px);
+  }
+  p{
+    font-size: rem.convert(48px);
+    text-transform: uppercase;
+    color: var(--brand-color);
+    font-weight: 600;
+  }
+}
