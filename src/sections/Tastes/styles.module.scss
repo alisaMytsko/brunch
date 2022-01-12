@@ -17,9 +17,9 @@
         background: var(--body-color);
         margin-right: 9px;
       }
-      .wrapperCircle{
-        display:flex;
-      }
+      // .wrapperCircle{
+      //   display:flex;
+      // }
       .title{
         font-size: rem.convert(19px);
         font-weight: 700;
@@ -30,6 +30,25 @@
         font-weight: 400;
         line-height: 1.6;
       }
+    }
+  }
+}
+
+@media (max-width: 991px){
+  .tastes{
+    .containerTastes{
+      padding: 70px 0;
+      display:block;
+      text-align: center;
+      .wrapper{
+        margin-bottom: 40px;
+        .circle{
+          margin:0 auto;
+        }
+        .title{
+          margin: 20px 0;
+        }
+      } 
     }
   }
 }
