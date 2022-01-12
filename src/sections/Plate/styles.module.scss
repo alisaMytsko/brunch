@@ -36,3 +36,45 @@
     }
   }
 }
+@media (max-width: 991px){
+  .plate{
+    .plateContainer{
+      .blockPrice{
+        .item{
+          padding: 6% 5%;
+          .title{
+            font-size: rem.convert(14px);
+          }
+          .subTitle{
+            font-size: rem.convert(14px);
+            margin: 3px 0 5px;
+          }
+          span{
+            font-size: rem.convert(14px);
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 551px){
+  .plate{
+    .plateContainer{
+      .blockPrice{
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  }
+}
+
+@media (max-width: 461px){
+  .plate{
+    padding: 45px 5%;
+    .plateContainer{
+      max-width: 350px;
+      .blockPrice{
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+}

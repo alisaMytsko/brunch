@@ -13,3 +13,13 @@
     font-weight: 600;
   }
 }
+@media (max-width: 551px){
+  .blockText{
+    h3{
+      font-size: rem.convert(46px);
+    }
+    p{
+      font-size: rem.convert(29px);
+    }
+  }
+}
