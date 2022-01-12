@@ -5,6 +5,7 @@ import Tastes from './sections/Tastes';
 import Tradition from './sections/Tradition';
 import Plate from './sections/Plate';
 import Cuisine from './sections/Cuisine';
+import Discover from './sections/Discover';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Tastes />
       <Plate />
       <Cuisine />
+      <Discover />
     </div>
   );
 }

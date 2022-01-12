@@ -1,0 +1,53 @@
+@use "~sass-rem" as rem;
+
+.discover{
+  background-image: url(../../ui/images/discover-1440-841.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 15.5%;
+  .discoverContainer{
+    background: var(--opacity-white);
+    .discoverMenu{
+      max-width: 90%;
+      margin:0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      // display: grid;
+      // grid-template-columns: repeat(2, 1fr);
+      .boxItem{  
+        flex-basis: 45%;
+
+        display: flex;  
+        align-items: center; 
+        margin-bottom: 65px;   
+        .circle{
+          min-width: 85px;
+          height: 85px;
+          background: #fff;
+          border-radius: 100%;
+          margin-right: 9px;
+          align-items: center;
+          display:flex;
+          img{
+            margin: 0 auto;
+          }
+        }
+        .title{
+          font-size: rem.convert(18px);
+          font-weight: 700;
+          text-transform: uppercase;
+          margin-bottom: 17px;
+        }
+        .subTitle{
+          font-size: rem.convert(16px);
+          font-weight: 400;
+          span{
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+}
