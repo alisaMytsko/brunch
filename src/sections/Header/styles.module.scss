@@ -76,3 +76,27 @@
     }
   }
 }
+@media (max-width: 771px){
+  .header {
+    padding-bottom: 10%;
+    .headerContainer {
+      padding-top: 40px;
+      a{
+        font-size: rem.convert(28px);
+      }
+    }
+  }
+}
+@media (max-width: 551px){
+  .header {
+    // height: 100vh;
+    padding-bottom: 10%;
+    .headerContainer {
+      padding-top: 30px;
+      a{
+        font-size: rem.convert(22px);
+      }
+    }
+  }
+}
+
