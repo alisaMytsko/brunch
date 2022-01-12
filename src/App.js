@@ -6,6 +6,8 @@ import Tradition from './sections/Tradition';
 import Plate from './sections/Plate';
 import Cuisine from './sections/Cuisine';
 import Discover from './sections/Discover';
+import Book from './sections/Book';
+import Footer from './sections/Footer';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Plate />
       <Cuisine />
       <Discover />
+      <Book />
+      <Footer />
     </div>
   );
 }

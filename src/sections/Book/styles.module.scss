@@ -1,0 +1,48 @@
+@use "~sass-rem" as rem;
+
+.book{
+  text-align: center;
+  max-width: 80%;
+  margin:0 auto;
+  padding: 3.5% 0;
+  h4{
+    font-size: rem.convert(77px);
+    color: var(--white-color);
+    margin-bottom: 30px;
+  }
+  .bookingContainer{
+    display:flex;
+    justify-content: space-between;
+    color:white;
+    .wrapperApplication{
+      flex-basis: 22%;
+      text-align: left;
+    }
+    p{
+      font-size: rem.convert(17px);
+      margin-bottom: 10px;
+    }
+    input{
+      display: block;
+      background: inherit;
+      width: 100%;
+      border: 2px solid var(--white-color);
+      border-radius: 5px;
+      padding: 6px 0;
+      color: var(--white-color);
+      margin-bottom: 40px;
+    }
+  }
+  button{
+    width: 22%;
+    background: inherit;
+    border: 2px solid var(--white-color);
+    border-radius: 5px;
+    padding: 6px 0;
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-size: rem.convert(17px);
+    cursor: pointer;
+    margin-top: 15px;
+  }
+}

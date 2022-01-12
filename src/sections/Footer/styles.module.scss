@@ -1,0 +1,65 @@
+@use "~sass-rem" as rem;
+
+.footer{
+  background: var(--opacity-white);
+  padding-bottom: 120px;
+  .wrapperFooter{
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin:0 auto;
+    justify-content: space-between;
+    .wrapperBox{
+      max-width: 339px;
+      background: var(--white-color);
+      padding: 0 0 25px;
+      .textBox{
+        margin: 0 5% 0 5%;
+        .date{
+          font-size: rem.convert(14px);
+          margin: 25px 0 28px 0;
+        }
+
+        .title{
+          font-size: rem.convert(17px);
+        }
+
+        .subTitle{
+          font-size: rem.convert(17px);
+          font-weight: 400;
+          margin: 8px 0 28px 0;
+        }
+
+        button{
+          font-size: rem.convert(14px);
+          border:none;
+          text-transform: uppercase;
+          font-weight: 700;
+          color: var(--body-color);
+          background: inherit;
+          border-bottom: 5px solid var(--brand-color);
+        }
+      }
+
+      .pic{
+        display:block;
+        height: 300px;
+        width: 340px;
+        background: #000;
+      }
+    }
+  }
+}
+
+@media (max-width:1230px){
+  .footer{
+    .wrapperFooter{
+      .wrapperBox{
+        margin: 0 auto 40px;
+      }
+      .wrapperBox:last-child{
+        margin: 0 auto;
+      }
+    }
+  }
+}
