@@ -3,7 +3,7 @@ import styles from './styles.module.scss';
 
 const Book = () => {
   return(
-    <div className={styles.book}>
+    <div className={styles.book} id='contact'>
       <h4>Book here</h4>
       <div className={styles.bookingContainer}>
         <div className={styles.wrapperApplication}>

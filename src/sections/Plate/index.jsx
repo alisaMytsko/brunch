@@ -11,7 +11,7 @@ import Block from './Block';
 
 const Plate = () => {
   return(
-    <div className={styles.plate}>
+    <div className={styles.plate} id="menu" >
       <div className={styles.plateContainer}>
         <TitleComponent title={'India'} subTitle={'on your plate'}/>
 

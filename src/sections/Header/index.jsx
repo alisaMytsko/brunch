@@ -4,7 +4,7 @@ import Main from './Main';
 import Menu from './Menu';
 
 const Header = () => {
-  const items = [{value:'welcom', href: '#'}, {value:'menu', href: '#'},{value:'events', href: '#'}, {value:'contact', href: '#'}]
+  const items = [{value:'welcom', href: '#'}, {value:'menu', href: '#menu'},{value:'events', href: '#events'}, {value:'contact', href: '#contact'}]
   const [activeMenu, setActiveMenu] = useState(false)
 
   return (

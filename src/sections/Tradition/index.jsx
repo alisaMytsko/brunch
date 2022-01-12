@@ -11,7 +11,7 @@ const Tradition = () => {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur sapiente autem eaque recusandae voluptatibus ad itaque. Nisi, eos fugiat? Quis nemo vero, sint ut odio dignissimos eaque perferendis consequuntur debitis necessitatibus perspiciatis.</p>
         </div>
         <div className={styles.wrapper}>
-          <img src={spoon} />
+          <img src={spoon} alt=""/>
         </div>
       </div>
     </div>

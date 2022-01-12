@@ -4,7 +4,7 @@ import styles from './styles.module.scss';
 
 const Tastes = () => {
   return(
-    <div className={styles.tastes}>
+    <div className={styles.tastes} >
       <div className={styles.containerTastes}>
         <Block title={'New tastes'} />
         <Block title={'New spices'} />
