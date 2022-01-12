@@ -26,5 +26,41 @@
       flex-basis: 45%;
     }
   }
+}
 
+@media (max-width: 771px){
+  .tradition{
+    max-width: 90%;
+    text-align: center;
+    .traditionContainer{
+      display:block;
+      h2{
+        margin-bottom: rem.convert(40px);
+        font-size: rem.convert(23px);
+      }
+      .wrapper{
+        img{
+          margin:8% auto 0;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 551px){
+  .tradition{
+    .traditionContainer{
+      h2{
+        margin-bottom: rem.convert(36px);
+      }
+      p{
+        font-size: rem.convert(15px);
+      }
+
+      .wrapper{
+        img{
+          margin:8% auto 0;
+        }
+      }
+    }
+  }
 }
