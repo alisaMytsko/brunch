@@ -46,3 +46,54 @@
     margin-top: 15px;
   }
 }
+
+@media (max-width: 991px) {
+  .book{
+    .bookingContainer{
+      .wrapperApplication{
+        flex-basis: 28%;
+      }
+    }
+  }
+}
+@media (max-width: 771px) {
+  .book{
+    padding: 10% 0;
+    h4{
+      font-size: rem.convert(85px);
+    }
+    .bookingContainer{
+      display:block;
+      .wrapperApplication{
+        margin:0 auto;
+        max-width: 70%;
+        text-align: center;
+      }
+    }
+    button{
+      width: 30%;
+    }
+  }
+}
+@media (max-width: 551px) {
+  .book{
+    padding: 15% 0 20% 0;
+    h4{
+      font-size: rem.convert(50px);
+      margin-bottom: 20px;
+    }
+    .bookingContainer{
+      display:block;
+      p{
+        font-size: rem.convert(16px);
+      }
+      input{
+        margin-bottom: 30px;
+      }
+    }
+    button{
+      width: 50%;
+      font-size: rem.convert(14px);
+    }
+  }
+}
