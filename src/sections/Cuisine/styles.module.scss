@@ -43,3 +43,28 @@
     }
   }
 }
+
+@media (max-width: 551px) {
+  .cuisine{
+    padding: 60px 5% 45px 5%;
+    .title{
+      font-size: rem.convert(25px);
+    }
+    .subTitle{
+      font-size: rem.convert(16px);
+    }
+    .boxCircle{
+      display:none;
+    }
+    .newNavigation{
+      margin-top: 30px;
+      a{
+        font-size: rem.convert(18px);
+        margin-right: 0px;
+        margin-bottom: 20px;
+        display: block;
+      }
+    }
+  }
+  
+}
