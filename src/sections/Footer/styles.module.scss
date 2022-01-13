@@ -51,14 +51,32 @@
   }
 }
 
-@media (max-width:1230px){
+@media (max-width:1401px){
   .footer{
     .wrapperFooter{
       .wrapperBox{
-        margin: 0 auto 40px;
+        flex-basis: 30%;
       }
-      .wrapperBox:last-child{
-        margin: 0 auto;
+    }
+  }
+}
+@media (max-width: 991px){
+  .footer{
+    padding: 40px 0;
+    .wrapperFooter{
+      display:block;
+      .wrapperBox{
+        margin:0 auto 7%;
+      }
+    }
+  }
+}
+
+@media (max-width: 551px){
+  .footer{
+    .wrapperFooter{
+      .wrapperBox{
+        margin:0 auto 11%;
       }
     }
   }
