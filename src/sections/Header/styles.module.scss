@@ -6,8 +6,9 @@
   background-position: center;
   background-repeat: no-repeat;
   max-height: 1000px;
+  height: 100vh;
   margin: 0 auto;
-  padding-bottom: 10%;
+  overflow: hidden;
   .headerContainer {
     max-width: 80%;
     margin: 0 auto;
@@ -78,7 +79,7 @@
 }
 @media (max-width: 771px){
   .header {
-    padding-bottom: 10%;
+    // padding-bottom: 10%;
     .headerContainer {
       padding-top: 40px;
       a{
@@ -89,7 +90,7 @@
 }
 @media (max-width: 551px){
   .header {
-    padding-bottom: 25%;
+    // padding-bottom: 25%;
     .headerContainer {
       padding-top: 30px;
       a{

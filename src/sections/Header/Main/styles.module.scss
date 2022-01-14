@@ -1,13 +1,14 @@
 @use "~sass-rem" as rem;
 .main{
   .containerMain{
+    z-index: 1;
     background: var(--opacity-white);
     text-align: center;
-    margin:10% auto 0;
+    margin: 13vh auto 0;
     width: 50%;
+    padding: 100px 0 100px 0;
     h1{
       font-size: rem.convert(104px);
-      padding-top: 100px;
     }
 
     p{
@@ -23,7 +24,7 @@
       text-transform: uppercase;
       font-size: rem.convert(38px);
       border: none;
-      margin: 25px 0 100px 0;
+      margin: 25px 0 0px 0;
       padding: 10px 20px;
       cursor:pointer;
     }
@@ -39,10 +40,8 @@
   .main{
     .containerMain{
       width: 56%;
-      margin:8% auto 0;
       h1{
         font-size: rem.convert(94px);
-        padding-top: 90px;
       }
   
       p{
@@ -51,7 +50,6 @@
   
       button{
         font-size: rem.convert(34px);
-        margin: 25px 0 90px 0;
       }
     }
   }
@@ -59,10 +57,8 @@
 @media (max-width: 991px){
   .main{
     .containerMain{
-      width: 54%;
       h1{
         font-size: rem.convert(75px);
-        padding-top: 80px;
       }
   
       p{
@@ -71,7 +67,6 @@
   
       button{
         font-size: rem.convert(27px);
-        margin: 25px 0 80px 0;
       }
     }
   }
@@ -79,9 +74,9 @@
 @media (max-width: 771px){
   .main{
     .containerMain{
+      padding: 70px 0 70px 0;
       h1{
         font-size: rem.convert(60px);
-        padding-top: 65px;
       }
   
       p{
@@ -91,7 +86,6 @@
   
       button{
         font-size: rem.convert(22px);
-        margin: 25px 0 65px 0;
       }
     }
   }
@@ -101,7 +95,6 @@
     .containerMain{
       h1{
         font-size: rem.convert(48px);
-        padding-top: 40px;
       }
   
       p{
@@ -111,8 +104,25 @@
   
       button{
         font-size: rem.convert(18px);
-        margin: 20px 0 40px 0;
+        margin: 20px 0 0;
         padding: 5px 10px;
+      }
+    }
+  }
+}
+@media (max-width: 320px){
+  .main{
+    .containerMain{
+      h1{
+        font-size: rem.convert(40px);
+      }
+  
+      p{
+        font-size: rem.convert(32px);
+      }
+  
+      button{
+        font-size: rem.convert(16px);
       }
     }
   }
